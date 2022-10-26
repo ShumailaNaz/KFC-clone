@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.font{
+    color: #fff;
+    
+}
+.w-75{
+    width: 75px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-s-start{
+justify-content: flex-start;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.center{
+align-items: center;
+
+}
+
+
+.ul-list-style{
+    list-style: none;
+}
+.txt-deco-none{
+    text-decoration: none;
+}
+
+.w-75{
+   width:75px;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    /* background-color: black; */
+    position: relative;
+}
+.nav-items{
+    /* justify-content: space-around; */
+       width: 50%;
+
+}
+.nav-items>ul{
+   justify-content: flex-end;
+   
+}
+.nav-items>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.nav-items>ul>li>a:hover{
+   color: orange;
+   font-weight: bold;
+}
+
+.home{
+    /* background-image: url(images/bgp3.webp); */
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    
+}
+.home::before{
+    content: "";
+    width: 100%;
+    background-image: url(images/bb.jpg);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   opacity: 0.6;
+}
+
+.home-img{
+    width: 300px;
+}
+.ordernow{
+    width: 400px;
+}
+.ordernow-btn{
+background-color: transparent;
+border-color:#fff;
+border-radius: 30px;
+width: 150px;
+color: #fff;
+font-weight: bolder;
+outline: none;
+border-style: solid;
+margin-top: 20px;padding: 5px;
+}
+.ordernow-btn:hover{
+background-color:orange;
+border-color:orange;
+transition: all 0.3s ease ;
+cursor: pointer;
+
+}
+.home-heading{
+    width: 130px;
+    font-weight: bold;
+    
+}
+.home-para{
+    white-space: wrap;
+}
+.meals{
+    width: 100%;
+    position: absolute;
+    /* top: 0; */
+    /* background-color: yellow; */
+    top:100vh;
+    text-align: center;
+}
+.menu-btn{
+    background-color: #650001;
+    width: 100%;
+}
+.menu-btn>button{
+    
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    border: 2px solid orange;
+    background-color:orange;
+    border-radius: 30px;
+    padding: 2px 20px;
+    color: #fff;
+    
+}
+.meal>img{
+    width: 70px;
+    height: 70px;
+}
+.meal:hover{
+    border-bottom: 3px solid red;
+    cursor: pointer;
+}
+.menus{
+    position: relative;
+    top:15px ;
+}
+.btn-scroll{
+ padding-top: 50px;
+}
+
+.cards{
+    background-image: url(images/bgpink.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: max-content;
+    position: relative;
+    top: 115vh;
+    padding: 30px 70px;
+ 
+}
+
+.card-item{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px #e6d2d2;
+    margin-top: 30px;
+    padding: 10px;
+   
+}
+.card-left{
+    width: 150px;
+}
+.card-left>h3{
+    width: 80px;
+}
+.w-150{
+    width: 150px !important;
+}
+.w-100{
+    width: 100px !important;
+}
+.card-heading{
+   
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
+.card-right{
+    background-color: orange;
+    width: max-content;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    /* text-align: center; */
+    position: relative;
+}
+.card-right>img{
+    width: 130px;
+    height: 97px;
+    position: absolute;
+    right: 0px;
+    border-radius: 90px;
+   
+    top: 3px;
+ 
+}
+.bg-blue{
+    background-image: url(images/bgblue.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-wall{
+    background-image: url(images/wall.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-red{
+    background-color: rgb(241, 37, 37);
+}
+.bg-fyer
+{
+    background-image: url(images/fryer1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-gray{
+    background-image: url(images/grayBg.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-btn{
+border: 2px solid red;
+background-color: red;
+color: #fff;
+border-radius: 30px;
+padding: 3px 10px;
+}
